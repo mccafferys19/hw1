@@ -157,12 +157,12 @@ CREATE TABLE movies(
     title TEXT,
     year_released INTEGER,
     MPAA_rating TEXT,
+    studio_id
 );
 
 CREATE TABLE studios(
     id INTEGER PRIMARY KEY AUTOINCREMENT,
     studio_name,
-    movie_id
 );
 
 CREATE TABLE characters(
@@ -185,6 +185,6 @@ INSERT INTO actors (name) VALUES
   ('Anne Hathaway');
 
 INSERT INTO movies (title, year_released, MPAA_rating) VALUES
-  ('Batman Begins', 2005, 'PG-13'),
-  ('The Dark Knight', 2008, 'PG-13'),
-  ('The Dark Knight Rises', 2012, 'PG-13');
+  ('Batman Begins', 2005, 'PG-13',1),
+  ('The Dark Knight', 2008, 'PG-13',1),
+  ('The Dark Knight Rises', 2012, 'PG-13',1);
