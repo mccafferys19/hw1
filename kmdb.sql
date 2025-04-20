@@ -137,3 +137,54 @@
 
 -- The SQL statement for the cast output
 -- TODO!
+
+-- =========================
+-- DO NOT MODIFY ABOVE THIS LINE
+-- =========================
+
+DROP TABLE IF EXISTS actors;
+DROP TABLE IF EXISTS movies;
+DROP TABLE IF EXISTS studios;
+DROP TABLE IF EXISTS characters;
+
+CREATE TABLE actors(
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    full_name TEXT,  
+);
+
+CREATE TABLE movies(
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    title TEXT,
+    year_released INTEGER,
+    MPAA_rating TEXT,
+);
+
+CREATE TABLE studios(
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    studio_name,
+    movie_id
+);
+
+CREATE TABLE characters(
+    id INTEGER PRIMARY KEY AUTOINCREMENT, 
+    actor_id
+    movie_id
+);
+
+INSERT INTO actors (name) VALUES
+  ('Christian Bale'),
+  ('Michael Caine'),
+  ('Liam Neeson'),
+  ('Katie Holmes'),
+  ('Gary Oldman'),
+  ('Heath Ledger'),
+  ('Aaron Eckhart'),
+  ('Maggie Gyllenhaal'),
+  ('Tom Hardy'),
+  ('Joseph Gordon-Levitt'),
+  ('Anne Hathaway');
+
+INSERT INTO movies (title, year_released, MPAA_rating) VALUES
+  ('Batman Begins', 2005, 'PG-13'),
+  ('The Dark Knight', 2008, 'PG-13'),
+  ('The Dark Knight Rises', 2012, 'PG-13');
