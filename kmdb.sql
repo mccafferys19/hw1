@@ -191,25 +191,25 @@ INSERT INTO characters (character_name) VALUES
 
 INSERT INTO appearances (movie_id, actor_id, character_id) VALUES
   -- Batman Begins
-  (1, 1, 1),   -- Christian Bale as Bruce Wayne
-  (1, 2, 2),   -- Michael Caine as Alfred
-  (1, 3, 3),   -- Liam Neeson as Ra's Al Ghul
-  (1, 4, 4),   -- Katie Holmes as Rachel Dawes
-  (1, 5, 5),   -- Gary Oldman as Commissioner Gordon
+  (1, 1, 1),   -- Christian Bale, Bruce Wayne
+  (1, 2, 2),   -- Michael Caine, Alfred
+  (1, 3, 3),   -- Liam Neeson, Ra's Al Ghul
+  (1, 4, 4),   -- Katie Holmes, Rachel Dawes
+  (1, 5, 5),   -- Gary Oldman, Commissioner Gordon
 
   -- The Dark Knight
-  (2, 1, 1),   -- Christian Bale as Bruce Wayne
-  (2, 6, 6),   -- Heath Ledger as Joker
-  (2, 7, 7),   -- Aaron Eckhart as Harvey Dent
-  (2, 2, 2),   -- Michael Caine as Alfred
-  (2, 8, 4),   -- Maggie Gyllenhaal as Rachel Dawes
+  (2, 1, 1),   -- Christian Bale, Bruce Wayne
+  (2, 6, 6),   -- Heath Ledger, Joker
+  (2, 7, 7),   -- Aaron Eckhart, Harvey Dent
+  (2, 2, 2),   -- Michael Caine, Alfred
+  (2, 8, 4),   -- Maggie Gyllenhaal, Rachel Dawes
 
   -- The Dark Knight Rises
-  (3, 1, 1),   -- Christian Bale as Bruce Wayne
-  (3, 5, 5),   -- Gary Oldman as Commissioner Gordon
-  (3, 9, 8),   -- Tom Hardy as Bane
-  (3, 10, 9),  -- Joseph Gordon-Levitt as John Blake
-  (3, 11, 10); -- Anne Hathaway as Selina Kyle
+  (3, 1, 1),   -- Christian Bale, Bruce Wayne
+  (3, 5, 5),   -- Gary Oldman, Commissioner Gordon
+  (3, 9, 8),   -- Tom Hardy, Bane
+  (3, 10, 9),  -- Joseph Gordon-Levitt, John Blake
+  (3, 11, 10); -- Anne Hathaway, Selina Kyle
 
 -- Prints a header for the movies output
 .print "Movies"
